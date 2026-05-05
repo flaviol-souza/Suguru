@@ -24,17 +24,17 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(
 #nav{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;z-index:100;background:rgba(255,255,255,.9);border:0.5px solid var(--border);border-radius:40px;padding:7px 16px;backdrop-filter:blur(10px);box-shadow:0 2px 14px rgba(0,0,0,.07)}
 .nbtn{width:30px;height:30px;border-radius:50%;border:0.5px solid var(--border);background:transparent;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;transition:all .15s}
 .nbtn:hover{background:var(--surface2)}.nbtn:disabled{opacity:.28;cursor:default}
-#sc{font-family:var(--mono);font-size:11px;color:var(--muted);min-width:40px;text-align:center}
+#sc{font-family:var(--mono);font-size:14px;color:var(--muted);min-width:40px;text-align:center}
 .dots{display:flex;gap:4px;align-items:center}
 .dot{width:5px;height:5px;border-radius:50%;background:var(--border2);transition:all .2s;cursor:pointer}
 .dot.active{background:var(--accent);width:16px;border-radius:3px}
 #pb{position:fixed;top:0;left:0;height:2px;background:var(--accent);transition:width .28s ease;z-index:200}
-#snt{position:fixed;top:14px;right:22px;font-family:var(--mono);font-size:11px;color:var(--border2);z-index:100}
+#snt{position:fixed;top:14px;right:22px;font-family:var(--mono);font-size:14px;color:var(--border2);z-index:100}
 
 /* TYPE */
 .slide-title{font-family:var(--serif);font-size:clamp(24px,3.8vw,52px);line-height:1.1;color:var(--text);margin-bottom:.32em;font-weight:400}
 .slide-title em{color:var(--accent);font-style:italic}
-.lbl{font-family:var(--mono);font-size:clamp(9px,.95vw,11px);color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4em}
+.lbl{font-family:var(--mono);font-size:clamp(11px,.95vw,11px);color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4em}
 .body{font-size:clamp(13px,1.35vw,16px);color:var(--muted);line-height:1.7;font-weight:300}
 
 /* CARDS */
@@ -51,34 +51,34 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(
 .g4{display:grid;grid-template-columns:repeat(4,1fr);gap:.6em}
 
 /* TAGS */
-.tag{display:inline-block;font-family:var(--mono);font-size:9px;padding:2px 7px;border-radius:20px;font-weight:500;white-space:nowrap}
+.tag{display:inline-block;font-family:var(--mono);font-size:12px;padding:2px 7px;border-radius:20px;font-weight:500;white-space:nowrap}
 .tb{background:var(--al);color:var(--accent)}.tg{background:var(--gl);color:var(--accent2)}
 .tam{background:var(--aml);color:var(--amber)}.tp{background:var(--pl);color:var(--purple)}
 .tgr{background:var(--surface2);color:var(--muted)}.td{background:var(--dl);color:var(--danger)}
 
 /* EQ */
-.eq{font-family:var(--mono);font-size:clamp(10px,1.05vw,13px);background:var(--surface2);border:0.5px solid var(--border);border-radius:6px;padding:.45em .8em;color:var(--text);margin:.3em 0;line-height:1.6}
+.eq{font-family:var(--mono);font-size:clamp(14px,1.05vw,13px);background:var(--surface2);border:0.5px solid var(--border);border-radius:6px;padding:.45em .8em;color:var(--text);margin:.3em 0;line-height:1.6}
 
 /* RULE ROW */
 .rrow{display:flex;align-items:center;gap:.6em;padding:.34em 0;border-bottom:0.5px solid var(--border)}
 .rrow:last-child{border-bottom:none}
-.rs{font-family:var(--mono);font-size:10px;color:var(--muted);min-width:20px}
+.rs{font-family:var(--mono);font-size:11px;color:var(--muted);min-width:20px}
 
 /* TABLE */
-.tbl{width:100%;border-collapse:collapse;font-size:clamp(10px,1.05vw,13px)}
-.tbl th{text-align:left;padding:.4em .65em;border-bottom:1px solid var(--border);color:var(--muted);font-weight:400;font-family:var(--mono);font-size:9px;letter-spacing:.07em;text-transform:uppercase}
+.tbl{width:100%;border-collapse:collapse;font-size:clamp(14px,1.05vw,13px)}
+.tbl th{text-align:left;padding:.4em .65em;border-bottom:1px solid var(--border);color:var(--muted);font-weight:400;font-family:var(--mono);font-size:12px;letter-spacing:.07em;text-transform:uppercase}
 .tbl td{padding:.38em .65em;border-bottom:0.5px solid var(--border);color:var(--text)}
 .tbl tr:last-child td{border-bottom:none}
 
 /* PHASE BOX */
 .pb2{border:0.5px solid var(--border);border-radius:8px;padding:.65em .8em;background:var(--surface);display:flex;flex-direction:column;gap:.2em}
-.pn{font-family:var(--mono);font-size:9px;color:var(--muted);letter-spacing:.05em}
-.pt{font-size:clamp(10px,1.05vw,13px);font-weight:500;color:var(--text)}
-.pd2{font-size:clamp(9px,.9vw,11px);color:var(--muted);line-height:1.5}
+.pn{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.05em}
+.pt{font-size:clamp(14px,1.05vw,13px);font-weight:500;color:var(--text)}
+.pd2{font-size:clamp(14px,.9vw,11px);color:var(--muted);line-height:1.5}
 
 /* FLOW */
 .flow{display:flex;align-items:center;gap:.35em;flex-wrap:wrap}
-.fb{background:var(--surface);border:0.5px solid var(--border);border-radius:6px;padding:.3em .6em;font-size:clamp(9px,.95vw,12px);color:var(--text);white-space:nowrap;font-family:var(--mono)}
+.fb{background:var(--surface);border:0.5px solid var(--border);border-radius:6px;padding:.3em .6em;font-size:clamp(11px,.95vw,12px);color:var(--text);white-space:nowrap;font-family:var(--mono)}
 .fa{color:var(--border2);font-size:12px}
 
 /* MISC */
@@ -242,8 +242,8 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(
       </div>
       <div class="card" style="background:var(--surface2)">
         <div class="g2" style="gap:.4em">
-          <div style="text-align:center;padding:.4em"><div style="font-family:var(--mono);font-size:9px;color:var(--muted);margin-bottom:.2em">faixa H<sub>c</sub></div><div style="font-size:clamp(15px,1.8vw,22px);font-weight:500">0 – 2.81</div><div style="font-size:9px;color:var(--muted)">bits</div></div>
-          <div style="text-align:center;padding:.4em;border-left:0.5px solid var(--border)"><div style="font-family:var(--mono);font-size:9px;color:var(--muted);margin-bottom:.2em">faixa H<sub>r</sub></div><div style="font-size:clamp(15px,1.8vw,22px);font-weight:500;color:var(--purple)">0 – 12.30</div><div style="font-size:9px;color:var(--purple)">×4,4 → menos empates</div></div>
+          <div style="text-align:center;padding:.4em"><div style="font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:.2em">faixa H<sub>c</sub></div><div style="font-size:clamp(15px,1.8vw,22px);font-weight:500">0 – 2.81</div><div style="font-size:12px;color:var(--muted)">bits</div></div>
+          <div style="text-align:center;padding:.4em;border-left:0.5px solid var(--border)"><div style="font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:.2em">faixa H<sub>r</sub></div><div style="font-size:clamp(15px,1.8vw,22px);font-weight:500;color:var(--purple)">0 – 12.30</div><div style="font-size:12px;color:var(--purple)">×4,4 → menos empates</div></div>
         </div>
       </div>
       <div class="card cg"><p class="body" style="font-size:clamp(12px,1.2vw,15px);color:var(--text)">Menos bits = mais sabemos.<br>Resolver = levar toda entropia a zero.</p></div>
@@ -296,17 +296,17 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(
         <div style="display:flex;flex-direction:column;gap:.4em">
           <div style="display:flex;align-items:flex-start;gap:.55em">
             <span class="tag tb" style="margin-top:1px;flex-shrink:0">1º</span>
-            <div><strong>H<sub>r</sub>(R)</strong> mínimo<br><span class="body" style="font-size:10px">escala 0–12.30 bits — critério principal</span></div>
+            <div><strong>H<sub>r</sub>(R)</strong> mínimo<br><span class="body" style="font-size:11px">escala 0–12.30 bits — critério principal</span></div>
           </div>
           <div style="color:var(--border2);font-size:12px;padding-left:2px">↓ empate</div>
           <div style="display:flex;align-items:flex-start;gap:.55em">
             <span class="tag tam" style="margin-top:1px;flex-shrink:0">2º</span>
-            <div><strong>S3</strong> mínimo — Σ H<sub>r</sub>(R') das regiões vizinhas de R<br><span class="body" style="font-size:10px">usa escala Hr → mais discriminativo</span></div>
+            <div><strong>S3</strong> mínimo — Σ H<sub>r</sub>(R') das regiões vizinhas de R<br><span class="body" style="font-size:11px">usa escala Hr → mais discriminativo</span></div>
           </div>
           <div style="color:var(--border2);font-size:12px;padding-left:2px">↓ empate</div>
           <div style="display:flex;align-items:flex-start;gap:.55em">
             <span class="tag tp" style="margin-top:1px;flex-shrink:0">3º</span>
-            <div><strong>S2</strong> mínimo — Σ H<sub>c</sub>(C') da fronteira ∂R<br><span class="body" style="font-size:10px">usa escala Hc → menos discriminativo, último recurso</span></div>
+            <div><strong>S2</strong> mínimo — Σ H<sub>c</sub>(C') da fronteira ∂R<br><span class="body" style="font-size:11px">usa escala Hc → menos discriminativo, último recurso</span></div>
           </div>
         </div>
       </div>
@@ -320,7 +320,7 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(
           <div style="color:var(--border2);font-size:12px;padding-left:2px">↓ empate</div>
           <div style="display:flex;align-items:flex-start;gap:.55em">
             <span class="tag tg" style="margin-top:1px;flex-shrink:0">2º</span>
-            <div><strong>S1</strong> mínimo — Σ H<sub>c</sub>(C') dos 8 vizinhos de Moore de C<br><span class="body" style="font-size:10px">vizinhos fechados → menor surpresa ao propagar</span></div>
+            <div><strong>S1</strong> mínimo — Σ H<sub>c</sub>(C') dos 8 vizinhos de Moore de C<br><span class="body" style="font-size:11px">vizinhos fechados → menor surpresa ao propagar</span></div>
           </div>
         </div>
       </div>
@@ -396,17 +396,17 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(
       <div style="padding:.6em .8em;border-radius:7px;background:var(--surface2);border:0.5px solid var(--border)">
         <div style="display:flex;align-items:center;gap:.45em;margin-bottom:.25em"><span class="tag tgr">Nível 0</span><span style="font-size:12px;font-weight:500">Conta peers afetados</span></div>
         <p class="body">Proxy rápida. Sem calcular permutações.</p>
-        <div class="eq" style="margin-top:.25em;font-size:10px">O(|D| · |ρ|)</div>
+        <div class="eq" style="margin-top:.25em;font-size:11px">O(|D| · |ρ|)</div>
       </div>
       <div style="padding:.6em .8em;border-radius:7px;background:var(--al);border:0.5px solid rgba(24,95,165,.2)">
         <div style="display:flex;align-items:center;gap:.45em;margin-bottom:.25em"><span class="tag tb">Nível A</span><span style="font-size:12px;font-weight:500">ΔH<sub>r</sub> da própria região R*</span></div>
         <p class="body">Captura efeito combinatório. Viável para k ≤ 5.</p>
-        <div class="eq" style="margin-top:.25em;font-size:10px">O(|D| · k!)</div>
+        <div class="eq" style="margin-top:.25em;font-size:11px">O(|D| · k!)</div>
       </div>
       <div style="padding:.6em .8em;border-radius:7px;background:var(--aml);border:0.5px solid rgba(122,69,0,.15)">
         <div style="display:flex;align-items:center;gap:.45em;margin-bottom:.25em"><span class="tag tam">Nível B</span><span style="font-size:12px;font-weight:500">ΔH<sub>r</sub> de R* + regiões vizinhas</span></div>
         <p class="body">Visão global. Caro para k = 6 ou 7.</p>
-        <div class="eq" style="margin-top:.25em;font-size:10px">O(|D| · |R| · k!)</div>
+        <div class="eq" style="margin-top:.25em;font-size:11px">O(|D| · |R| · k!)</div>
       </div>
     </div>
   </div>
@@ -468,7 +468,7 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(
     <h2 class="slide-title" style="font-size:clamp(26px,4vw,52px);margin-bottom:.5em">
       Obrigado pela atenção.
     </h2>
-    <p style="font-size:clamp(13px,1.5vw,18px);color:var(--muted);font-weight:300;line-height:1.7;max-width:640px;margin-bottom:1.6em">
+    <!--<p style="font-size:clamp(13px,1.5vw,18px);color:var(--muted);font-weight:300;line-height:1.7;max-width:640px;margin-bottom:1.6em">
       A proposta combina motor determinístico, entropia de região H<sub>r</sub>, lookahead ΔH<sub>r</sub> e estatísticas de desempate S1–S3 para responder empiricamente à questão: o ganho em qualidade de decisão compensa o custo adicional por nó?
     </p>
     <div class="divider" style="margin-bottom:1.2em"></div>
@@ -487,7 +487,7 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(
         </div>
         <p class="body" style="margin-top:.35em">Métrica principal: <strong style="color:var(--text)">tempo de CPU total</strong>.</p>
       </div>
-    </div>
+    </div>-->
   </div>
 </div>
 
